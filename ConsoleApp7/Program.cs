@@ -10,7 +10,12 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Merhaba Dünya");
+            
+            int sayi1, sayi2, toplam = 0;
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            toplam = sayi1 + sayi2;
+            Console.WriteLine("{0} ve {1} Sayısının Toplamı : {2}", sayi1, sayi2, toplam);
             Console.ReadLine();
         }
     }
